@@ -1,0 +1,72 @@
+
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(209, 44, 44); /* kind of matches iron man red */
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* LOGO SIDE OF WEBPAGE */
+.logo-side {
+    width: 40vw;
+    background-image: url(images/d626d836680039.572544eb26678.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: auto;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.club-title {
+    margin-bottom: 350px;
+    background-color: rgba(131, 34, 34, 0.445);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: rgb(29, 1, 1);
+}
+
+/* SIGN UP SIDE */
+.sign-up-side {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+/* First box w/ message */
+.message-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(161, 26, 26);
+    font-size: 24px;
+    height: 33vh;
+}
+
+.message-box > h3 {
+    text-align: center;
+}
+
+/* Sign-up form */
+.form-box {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.name-row {
+    display: flex;
+}
+
+.info-row {
+    display: flex;
+}
+
+.password-row {
+    display: flex;
+}
