@@ -19,7 +19,7 @@ body {
 }
 
 .club-title {
-    margin-bottom: 350px;
+    margin-bottom: 355px;
     background-color: rgba(131, 34, 34, 0.445);
     width: 100%;
     text-align: center;
@@ -42,31 +42,84 @@ body {
     background-color:rgb(161, 26, 26);
     font-size: 24px;
     height: 33vh;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 .message-box > h3 {
     text-align: center;
 }
 
+
+
 /* Sign-up form */
 .form-box {
+    height: 33vh;
+    margin-left: 35px;
+    margin-top: 15px;
+    margin-bottom: 5px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-right: 25px;
 }
 
 input {
     border-radius: 4px;
     padding: 3px;
+
 }
 
 .name-row {
     display: flex;
+    margin-bottom: 5px;
 }
 
 .info-row {
     display: flex;
+    margin-bottom: 5px;
 }
 
 .password-row {
     display: flex;
+}
+
+/* Last section on right side */
+.extra-box {
+    background-color: rgb(161, 26, 26);
+    height: 33vh;
+    padding-left: 35px;
+    padding-top: 25px;
+}
+
+button {
+    padding: 10px 15px 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    border-width: 4px;
+    border-radius: 8px;
+}
+
+button:hover {
+    cursor:pointer;
+    background-color:  rgb(209, 44, 44);
+    color: rgb(207, 201, 116);
+}
+
+a {
+    text-decoration:none;
+    color:rgb(207, 201, 116);
+    font-weight: 900;
+}
+
+a:hover {
+    color: rgb(34, 1, 1);
 }
